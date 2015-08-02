@@ -57,12 +57,12 @@ git clone https://github.com/bazzline/php_propel_behavior_create_entity
 propel.behavior.create_entity.class = lib.vendor.net_bazzline.php_propel_behavior_create_entity.source.CreateEntityBehavior
 ```
 * add usage in your `schema.xml`
-```
-#for the whole database
+```xml
+<!-- for the whole database -->
 <database name="propel" defaultIdMethod="native" package="lib.model">
     <behavior name="create_entity" />
 </database>
-#for one table
+<!-- for one table -->
 <database name="propel" defaultIdMethod="native" package="lib.model">
     <table name="my_table">
         <column name="id" type="INTEGER" required="true" primaryKey="true" autoIncrement="true" />
@@ -80,5 +80,6 @@ propel.behavior.create_entity.class = lib.vendor.net_bazzline.php_propel_behavio
 * upcoming
     * @todo
     * added "why" section
+    * optimized reading
 * [1.0.0](https://github.com/bazzline/php_propel_behavior_create_entity/tree/1.0.0) - released at 02.08.2015
     * initial release
