@@ -19,10 +19,15 @@ Downloads:
 
 It is available at [openhub.net](https://openhub.net/p/php_propel_behavior_create_entity).
 
+# Why
+
+* no `new` in your code anymore
+* eases up writing test code (`createEntity` can be mocked)
+
 # Usage
 
-* make sure you have "extension=pdo_sqlite.so" enabled if you want to run phpunit
-* the behavior adds a "createEntity" method to the table query class
+* make sure you have `extension=pdo_sqlite.so` enabled if you want to run phpunit
+* the behavior adds a `createEntity` method to the table query class
 ```php
 $query = DemoQuery::create();
 //create a new instance of class "Demo" without using new
@@ -72,5 +77,8 @@ propel.behavior.create_entity.class = lib.vendor.net_bazzline.php_propel_behavio
 
 # History
 
+* upcoming
+    * @todo
+    * added "why" section
 * [1.0.0](https://github.com/bazzline/php_propel_behavior_create_entity/tree/1.0.0) - released at 02.08.2015
     * initial release
