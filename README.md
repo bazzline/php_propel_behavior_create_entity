@@ -9,7 +9,7 @@ The build status of the current master branch is tracked by Travis CI:
 [![Latest stable](https://img.shields.io/packagist/v/net_bazzline/php_propel_behavior_create_entity.svg)](https://packagist.org/packages/net_bazzline/php_propel_behavior_create_entity)
 
 The scrutinizer status are:
-[![code quality](https://scrutinizer-ci.com/g/bazzline/php_propel_behavior_create_entity/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_propel_behavior_create_entity/) | [![build status](https://scrutinizer-ci.com/g/bazzline/php_propel_behavior_create_entity/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_propel_behavior_create_entity/)
+[![code quality](https://scrutinizer-ci.com/g/bazzline/php_propel_behavior_create_entity/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bazzline/php_propel_behavior_create_entity/)
 
 The versioneye status is:
 [![dependencies](https://www.versioneye.com/user/projects/55be795c653762002000209a/badge.svg?style=flat)](https://www.versioneye.com/user/projects/55be795c653762002000209a)
