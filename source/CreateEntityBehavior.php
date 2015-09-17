@@ -25,7 +25,7 @@ class CreateEntityBehavior extends Behavior
      */
     public function addCreateEntityToCode($code, DataModelBuilder $builder)
     {
-        $className  = $builder->getStubObjectBuilder()->getFullyQualifiedClassname();
+        $className  = $builder->getStubObjectBuilder()->getClassname();
 
         $code      .= '
 /**
