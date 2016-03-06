@@ -1,7 +1,16 @@
 {
     "name": "net_bazzline/php_propel_behavior_create_entity",
     "description": "free as in freedom CreateEntity propel behavior to easy up entity creation",
-    "keywords": ["propel", "behavior", "create", "entity", "php", "lgpl", "free as in freedom"],
+    "keywords": [
+        "bazzline",
+        "propel",
+        "behavior",
+        "create",
+        "entity",
+        "php",
+        "lgpl",
+        "free as in freedom"
+    ],
     "type": "library",
     "minimum-stability": "dev",
     "require": {
@@ -9,9 +18,9 @@
         "propel/propel1": "~1.6"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.8||~5.0"
+        "phpunit/phpunit": "~4.8||~5.2"
     },
-    "license": "LGPLv3",
+    "license": "LGPL-3.0",
     "authors": [
         {
             "name": "Stev Leibelt",
