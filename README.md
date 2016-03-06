@@ -81,6 +81,9 @@ propel.behavior.create_entity.class = lib.vendor.net_bazzline.php_propel_behavio
     * @todo
     * added "why" section
     * optimized reading
+* [1.2.0](https://github.com/bazzline/php_propel_behavior_create_entity/tree/1.2.0) - released at 06.03.2016
+    * added support for php 7.0
+    * removed support for php 5.3.3
 * [1.1.4](https://github.com/bazzline/php_propel_behavior_create_entity/tree/1.1.4) - released at 06.03.2016
     * updated dependencies
 * [1.1.3](https://github.com/bazzline/php_propel_behavior_create_entity/tree/1.1.3) - released at 11.01.2015
