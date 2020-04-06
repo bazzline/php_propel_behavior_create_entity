@@ -4,9 +4,9 @@
  * @author stev leibelt <artodeto@bazzline.net>
  * @since 2015-08-02
  */
-class CreateEntityBehaviorTest extends PHPUnit_Framework_TestCase
+class CreateEntityBehaviorTest extends \PHPUnit\Framework\TestCase
 {
-    public function setUp()
+    protected function setUp(): void
     {
         if (!class_exists('Post')) {
             $schema = <<<EOF
