@@ -11,14 +11,20 @@
         "lgpl",
         "free as in freedom"
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tworzenieweb/Propel.git"
+        }
+    ],
     "type": "library",
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3.3",
-        "propel/propel1": "~1.6"
+        "php": "^7.4",
+        "propel/propel1": "dev-php7.4"
     },
     "require-dev": {
-        "phpunit/phpunit": ">=4.8"
+        "phpunit/phpunit": "^8.0"
     },
     "license": "LGPL-3.0",
     "authors": [
